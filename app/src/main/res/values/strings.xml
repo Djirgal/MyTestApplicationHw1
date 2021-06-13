@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTestApplicationHw1</string>
+    <string name="tv_text">Please, enter your contact number:</string>
+    <string name="button1_text">Push me softly</string>
+    <string name="phoneHint">+7(xxx)xxx-xx-xx</string>
+    <string name="switch_text">Yes, I want to receive sms</string>
+    <string name="cb_terms">Agree with terms and conditions</string>>
+</resources>
