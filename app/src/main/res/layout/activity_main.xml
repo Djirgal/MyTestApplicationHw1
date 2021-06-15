@@ -22,9 +22,10 @@
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
+        android:autofillHints="@string/phoneHint"
         android:hint="@string/phoneHint"
         android:textColorHint="@color/cardview_shadow_start_color"
         android:gravity="center"
@@ -43,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="@string/switch_text"
         android:textColor="@color/purple_200"
-        android:checked="true"
+        android:checked="false"
         android:hint="@string/cb_terms"
         android:textColorHint="@color/material_on_surface_disabled"
         />
@@ -55,9 +56,22 @@
         android:hint="@string/cb_terms"
         android:textColorHint="@color/material_on_surface_disabled"
         />
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/cb_terms2"
+        android:textColorHint="@color/material_on_surface_disabled"
+        tools:ignore="DuplicateIds" />
+
     <ToggleButton
         android:id="@+id/tbutton1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textOff="@string/tb_no"
+        android:textOn="@string/tb_yes"
+        android:textColor="@color/purple_500"
+        />
 
 </LinearLayout>

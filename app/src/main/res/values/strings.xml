@@ -4,5 +4,15 @@
     <string name="button1_text">Push me softly</string>
     <string name="phoneHint">+7(xxx)xxx-xx-xx</string>
     <string name="switch_text">Yes, I want to receive sms</string>
-    <string name="cb_terms">Agree with terms and conditions</string>>
+    <string name="cb_terms">Agree with terms and conditions</string>
+    <string name="cb_terms2">Agree to receive calls</string>
+    <string name="hint_text">Text</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_number">Some number</string>
+    <string name="hint_pass">Your password</string>
+    <string name="hint_email">Your Email</string>
+    <string name="tb_no">No</string>
+    <string name="tb_yes">Yes</string>
+    <string name="tb_hint">Smth else</string>
+    >
 </resources>
